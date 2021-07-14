@@ -1,0 +1,7 @@
+perovmldis/*.pyc
+perovmldis/__pycache__
+perovmldis/ML_models/*.pyc
+perovmldis/ML_utilities/*.pyc
+perovmldis/data_utilities/*.pyc
+*/__pycache__
+*/*.pyc

@@ -1,8 +1,7 @@
 #!/bin/sh
-
 #
 # jupyter tool
 #
-bin/invoke_app "$@" -t perovmldis \
+/usr/bin/invoke_app "$@" -t perovmldis \
                          -C "start_jupyter -t -T @tool perovmldis.ipynb" \
                          -u anaconda-6

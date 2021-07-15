@@ -8,7 +8,7 @@ from statistics import mean
 import seaborn as sns
 import pandas as pd
 from  matplotlib.pyplot import rc
-rc('font',**{'family':'serif','serif':['Helvetica']})
+#rc('font',**{'family':'','serif':['Helvetica']})
 #rc('text', usetex=True)
 
 class BinaryClassification:

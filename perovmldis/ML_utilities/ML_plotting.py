@@ -23,7 +23,7 @@ def plot_feature_importance(clf, feature_labels=None, filename=None, n_features=
     for i in range(n_features):
         importances.append(feature_importances[i][1])
         feature_list.append(feature_importances[i][0])
-    rc('font',**{'family':'serif','serif':['Helvetica']})
+    #rc('font',**{'family':'serif','serif':['Helvetica']})
     fig, ax = plt.subplots(figsize=(4,5))
     sns.barplot(y=x_values, x= importances,palette=palette,orient='h')
     ax.grid(True,color='grey', linestyle='--', linewidth=0.5)
